@@ -34,7 +34,7 @@ class VidusskolasSkolotajs(Skolotaji):
         return("Vidusskolas (tips – 3) skolotājs {} māca šādus priekšmetus: {} un {}, kopā {} stundas.").format(self.uzvards1, self.prieksmets1, self.prieksmets2, self.skaits2)
 
 
-tips1 = int(input("Ja 1. kolotājs māca sākumskolā, ievadiet (1), ja skolotājs māca vidusskolā ievadiet (3): "))
+tips1 = int(input("Ja 1. skolotājs māca sākumskolā, ievadiet (1), ja skolotājs māca vidusskolā ievadiet (3): "))
 
 if tips1 == 3:
     uzvards1 = input("Ievadiet 1. skolotāja uzvārdu: ")
